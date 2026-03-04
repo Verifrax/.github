@@ -10,6 +10,7 @@ VERIFRAX-PROFILES
 VERIFRAX-SAMPLES
 VERIFRAX-SPEC
 VERIFRAX-verify
+Verifrax/SIGILLARIUM
 archicustos
 attestorium
 cicullis
