@@ -1,0 +1,4 @@
+# NON_GOVERNED repos (explicit):
+ADJUTORIX
+MK10-PRO
+SIGILLARIUM
