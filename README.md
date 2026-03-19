@@ -1,46 +1,85 @@
-# verifrax/.github
+# Verifrax .github
 
-## Purpose
+Canonical organization governance and default-community surface for Verifrax repositories.
 
-Organization-wide GitHub defaults (.github) for Verifrax repositories.
+This repository is not the protocol, not the authority layer, and not the execution layer.
+It defines the shared GitHub-level organizational surface used across the Verifrax repository perimeter.
 
-## Status
+## Role
 
-- **Stability**: Experimental
-- **SemVer**: Not guaranteed until v1.0.0
-- **Security**: See **Security** section below
+This repository exists to provide the organization-wide defaults and governed registry surfaces that apply across Verifrax repositories.
 
-## Scope
+It is the control surface for:
 
-- What this repo is responsible for
-- What it explicitly does **not** do
+- shared GitHub governance defaults
+- organization profile presentation
+- issue and pull request defaults
+- repository perimeter registration
+- workflow and policy surfaces that must apply at organization scope
 
-## Quickstart
+## What this repository is
 
-```bash
-# clone
-git clone https://github.com/Verifrax/verifrax/.github.git
-cd verifrax/.github
+This repository is the canonical GitHub organization surface for Verifrax.
 
-# install (adjust if needed)
-# (placeholder) npm install / pnpm install / go test ./... / etc.
-```
+It is responsible for:
 
-## Repository layout
+- `.github/profile/README.md` organization profile content
+- shared contribution and conduct defaults
+- security reporting guidance at organization scope
+- governed and non-governed repository registry surfaces
+- organization-wide workflow defaults where explicitly intended
 
-- `/` Root sources
-- `/.github/` Issue + PR templates
-- `/docs/` Documentation (if present)
+## What this repository is not
+
+This repository is not:
+
+- the VERIFRAX protocol repository
+- the AUCTORISEAL authority repository
+- the CORPIFORM execution repository
+- a package distribution surface
+- a placeholder demo repository
+
+It must not describe speculative install flows, placeholder quickstarts, or generic template language that is not materially true.
+
+## Canonical public repositories
+
+Start with these public surfaces:
+
+- **[VERIFRAX](https://github.com/Verifrax/VERIFRAX)** — canonical protocol, evidence index, and verification boundary
+- **[AUCTORISEAL](https://github.com/Verifrax/AUCTORISEAL)** — authority sealing and issuance boundary
+- **[CORPIFORM](https://github.com/Verifrax/CORPIFORM)** — authority-governed execution and receipt boundary
+
+## Organization profile surface
+
+The public organization front page is defined here:
+
+- `profile/README.md`
+
+That file must stay aligned with the actual current public boundary of the stack.
 
 ## Security
 
-- Report vulnerabilities privately: **security@verifrax.org**
-- Do **not** open public issues for sensitive findings
+Report sensitive security issues privately through GitHub Security Advisories when available.
 
-## Contributing
+If repository-specific security guidance exists, follow that repository’s `SECURITY.md`.
 
-See `CONTRIBUTING.md`.
+Do not publish sensitive vulnerabilities in public issues.
 
-## License
+## Contribution boundary
 
-MIT. See `LICENSE`.
+Changes in this repository affect organization-wide presentation or governance defaults.
+
+Contributions here must therefore remain:
+
+- materially true
+- non-placeholder
+- organization-scoped
+- aligned with active Verifrax repository reality
+
+## Design rule
+
+No placeholder text.
+No fake install instructions.
+No stale organizational claims.
+
+This repository must remain a truthful GitHub organization surface only.
