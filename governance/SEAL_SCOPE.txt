@@ -1,0 +1,11 @@
+STATUS: PRE-SEAL
+
+SEAL_SCOPE_RULES:
+- Artifact-0005 is the first public canonical authority-governed seal boundary.
+- No repository may be described as sealed before artifact-0005 is fully registered.
+- Governed repository membership is defined by GOVERNED_REPOS.txt.
+- Repositories may be governed and still remain outside the artifact-0005 seal boundary until explicitly recorded.
+- Exact artifact-0005 seal inclusion must be written here when the authority object and receipt boundary are registered.
+
+CURRENT_SCOPE:
+- No artifact-0005 seal scope is registered yet.

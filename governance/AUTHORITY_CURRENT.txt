@@ -1,0 +1,10 @@
+STATUS: PRE-CANONICAL
+CURRENT_AUTHORITY_ID: UNREGISTERED
+CURRENT_AUTHORITY_DIGEST: UNREGISTERED
+ISSUANCE_DATE: UNREGISTERED
+
+RULES:
+- No public canonical authority object is registered in this repository yet.
+- No seal claim may be made from this repository until a canonical public authority object exists.
+- When registered, this file must contain the exact authority ID, digest, and issuance date used by the governed boundary.
+- This file is the organization governance pointer to the current externally bound authority object.

@@ -1,0 +1,6 @@
+STATUS: PRE-CANONICAL
+AUTHORITY_SCHEMA_VERSION: UNREGISTERED
+AUTHORITY_TOOL_VERSION: UNREGISTERED
+
+RULE:
+- Populate only when the canonical public authority object is issued and published.
