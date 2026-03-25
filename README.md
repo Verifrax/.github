@@ -9,6 +9,11 @@ It defines the shared GitHub-level organizational surface used across the Verifr
 
 This repository exists to provide the organization-wide defaults and governed registry surfaces that apply across Verifrax repositories.
 
+Governance authority is external and bound through AUCTORISEAL plus this governed repo set.
+VERIFRAX authors normative source material.
+VERIFRAX-SPEC publishes derived specification artifacts from VERIFRAX.
+Derived artifacts are not upstream authority.
+
 It is the control surface for:
 
 - shared GitHub governance defaults
