@@ -1,10 +1,10 @@
-STATUS: PRE-CANONICAL
-CURRENT_AUTHORITY_ID: UNREGISTERED
-CURRENT_AUTHORITY_DIGEST: UNREGISTERED
-ISSUANCE_DATE: UNREGISTERED
+STATUS: REGISTERED
+CURRENT_AUTHORITY_ID: AUTHORITY-0001-VERIFRAX
+CURRENT_AUTHORITY_DIGEST: 91e02d4e6bb73aa8f434b8baa072bac15ae31447d9e06a526ecb0e2a42315808
+ISSUANCE_DATE: 1700000000000
 
 RULES:
-- No public canonical authority object is registered in this repository yet.
-- No seal claim may be made from this repository until a canonical public authority object exists.
-- When registered, this file must contain the exact authority ID, digest, and issuance date used by the governed boundary.
 - This file is the organization governance pointer to the current externally bound authority object.
+- The authority object is published at Verifrax/AUCTORISEAL public/authority/AUTHORITY-0001.json.
+- The digest above must match Verifrax/AUCTORISEAL public/authority/AUTHORITY-0001.digest.txt exactly.
+- No seal claim may be made from this repository unless this pointer matches the published authority object used by the governed boundary.

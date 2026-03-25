@@ -1,6 +1,6 @@
-STATUS: PRE-CANONICAL
-AUTHORITY_SCHEMA_VERSION: UNREGISTERED
-AUTHORITY_TOOL_VERSION: UNREGISTERED
+STATUS: REGISTERED
+AUTHORITY_SCHEMA_VERSION: 1
+AUTHORITY_TOOL_VERSION: AUCTORISEAL-public-object-v1
 
 RULE:
-- Populate only when the canonical public authority object is issued and published.
+- These values must match the published canonical authority object used by the governed boundary.
