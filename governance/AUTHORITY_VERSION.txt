@@ -1,0 +1,6 @@
+STATUS: REGISTERED
+AUTHORITY_SCHEMA_VERSION: 1
+AUTHORITY_TOOL_VERSION: AUCTORISEAL-public-object-v1
+
+RULE:
+- These values must match the published canonical authority object used by the governed boundary.
