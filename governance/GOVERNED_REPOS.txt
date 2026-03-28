@@ -1,6 +1,10 @@
 Verifrax/AUCTORISEAL
+Verifrax/ARCHITECTURE
 Verifrax/CORPIFORM
+Verifrax/SIGILLARIUM
+Verifrax/apply
 Verifrax/cicullis
+Verifrax/proof
 Verifrax/VERIFRAX
 Verifrax/VERIFRAX-DOCS
 Verifrax/VERIFRAX-PROFILES

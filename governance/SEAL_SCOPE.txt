@@ -12,8 +12,12 @@ CURRENT_AUTHORITY_DIGEST: 91e02d4e6bb73aa8f434b8baa072bac15ae31447d9e06a526ecb0e
 
 CURRENT_SCOPE:
 - Verifrax/AUCTORISEAL
+- Verifrax/ARCHITECTURE
 - Verifrax/CORPIFORM
+- Verifrax/SIGILLARIUM
+- Verifrax/apply
 - Verifrax/cicullis
+- Verifrax/proof
 - Verifrax/VERIFRAX
 - Verifrax/VERIFRAX-DOCS
 - Verifrax/VERIFRAX-PROFILES
