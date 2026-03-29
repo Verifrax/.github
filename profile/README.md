@@ -1,60 +1,63 @@
 # VERIFRAX
 
-Deterministic verification, governed execution, and irreversible evidence finality.
+Deterministic verification, governed execution, explicit authority, and irreversible evidence finality.
 
-VERIFRAX is a protocol stack for binding authority, execution, and verification into auditable public surfaces.
+VERIFRAX is a governed repository and host perimeter that separates authority issuance, governed execution, proof publication, public verification, documentation, archive/reference surfaces, and intake so each public surface can stay inspectable without collapsing role boundaries.
 
-## Core public surfaces
+## Public hosts
 
-- **[VERIFRAX](https://github.com/Verifrax/VERIFRAX)** — authoring protocol surface, evidence index, and verification boundary
-- **[AUCTORISEAL](https://github.com/Verifrax/AUCTORISEAL)** — authority sealing and issuance boundary
-- **[CORPIFORM](https://github.com/Verifrax/CORPIFORM)** — authority-governed execution and receipt boundary
+* `auctoriseal.verifrax.net` — authority issuance and authority reference surface
+* `corpiform.verifrax.net` — governed execution and receipt surface
+* `proof.verifrax.net` — public proof publication surface
+* `verify.verifrax.net` — public verifier surface
+* `sigillarium.verifrax.net` — seal archive and reference surface
+* `docs.verifrax.net` — explanatory documentation surface
+* `apply.verifrax.net` — intake surface
 
-## Stack model
+## Stack order
 
-- **Authority** → AUCTORISEAL issues explicit authority objects
-- **Execution** → CORPIFORM executes or refuses under that authority
-- **Verification** → VERIFRAX records evidence, evaluates claims, and preserves finality boundaries
+1. `.github` — organization governance root and repository-perimeter control surface
+2. `AUCTORISEAL` — authority issuance and public authority reference
+3. `CORPIFORM` — governed execution and receipt emission
+4. `VERIFRAX` — normative protocol authoring, evidence-root registration, and verification boundary
+5. `VERIFRAX-SPEC` — derived specification publication
+6. `VERIFRAX-PROFILES` — deterministic profile constraints
+7. `VERIFRAX-SAMPLES` — sample and reproducibility surface
+8. `VERIFRAX-verify` — public verification UI
+9. `VERIFRAX-DOCS` — explanatory documentation surface
+10. `cicullis` — enforcement boundary
+11. `proof` — proof publication surface
+12. `SIGILLARIUM` — seal/archive reference surface
+13. `apply` — intake surface
 
-## Authority model
+## Authority direction
 
-- **VERIFRAX** authors normative source material for the active repository interpretation boundary.
-- **VERIFRAX-SPEC** publishes derived specification artifacts from VERIFRAX.
-- Derived specification artifacts are not upstream repository authority.
-- Governance authority is external and binds through AUCTORISEAL plus the governed repository set declared in **[Verifrax/.github](https://github.com/Verifrax/.github)**.
+* `VERIFRAX` authors normative source material.
+* `VERIFRAX-SPEC` publishes derived specification artifacts from `VERIFRAX`.
+* `VERIFRAX-PROFILES` constrains interpretation without rewriting the specification.
+* Derived artifacts are not upstream authority.
+* Governance authority is external and binds through `AUCTORISEAL` plus the governed repository set declared in `.github`.
 
-## Current public boundary
+## Surface boundaries
 
-The currently established public boundary includes:
+* Authority is issued in `AUCTORISEAL`, not in `VERIFRAX`, `proof`, or `verify`.
+* Governed execution occurs in `CORPIFORM`, not in `apply`, `docs`, or `SIGILLARIUM`.
+* Public proof publication occurs in `proof`, not in `VERIFRAX-verify`.
+* Public verification occurs in `VERIFRAX-verify`, not in `proof`.
+* Seal/archive reference lives in `SIGILLARIUM`, not in the evidence root of record.
+* Intake starts at `apply`, not at `proof`, `verify`, `docs`, or execution surfaces.
 
-- bootstrap artifacts through **artifact-0004**
-- recorded authority-governed CORPIFORM execution evidence
-- recorded package publication surfaces for:
-  - `@verifrax/auctoriseal`
-  - `@verifrax/corpiform`
+## Start here
 
-## Design constraints
+* [`VERIFRAX`](https://github.com/Verifrax/VERIFRAX) — authored protocol and evidence boundary
+* [`AUCTORISEAL`](https://github.com/Verifrax/AUCTORISEAL) — authority issuance
+* [`CORPIFORM`](https://github.com/Verifrax/CORPIFORM) — governed execution
+* [`VERIFRAX-verify`](https://github.com/Verifrax/VERIFRAX-verify) — public verification
+* [`proof`](https://github.com/Verifrax/proof) — proof publication
+* [`VERIFRAX-DOCS`](https://github.com/Verifrax/VERIFRAX-DOCS) — explanatory docs
 
-- no authority, no execution
-- no ambiguity, no execution
-- no unsigned consequence, no acceptance
-- no hidden mutation, no trust
+## Current reading rule
 
-## Orientation
+Read hosts and repositories by owned role, not by naming similarity.
 
-Start with the authoring and verification surface:
-
-- **[github.com/Verifrax/VERIFRAX](https://github.com/Verifrax/VERIFRAX)**
-
-Then inspect the authority and execution layers:
-
-- **[github.com/Verifrax/AUCTORISEAL](https://github.com/Verifrax/AUCTORISEAL)**
-- **[github.com/Verifrax/CORPIFORM](https://github.com/Verifrax/CORPIFORM)**
-
-Then inspect the derived publication and support surfaces:
-
-- **[github.com/Verifrax/VERIFRAX-SPEC](https://github.com/Verifrax/VERIFRAX-SPEC)**
-- **[github.com/Verifrax/VERIFRAX-PROFILES](https://github.com/Verifrax/VERIFRAX-PROFILES)**
-- **[github.com/Verifrax/VERIFRAX-SAMPLES](https://github.com/Verifrax/VERIFRAX-SAMPLES)**
-- **[github.com/Verifrax/VERIFRAX-DOCS](https://github.com/Verifrax/VERIFRAX-DOCS)**
-- **[github.com/Verifrax/VERIFRAX-verify](https://github.com/Verifrax/VERIFRAX-verify)**
+If a repository or host starts sounding like authority, execution, proof publication, verification, archive, docs, and intake at the same time, the boundary is already broken.
