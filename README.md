@@ -119,9 +119,17 @@ The main system split is:
 * [`proof`](https://github.com/Verifrax/proof) — public proof publication surface
 * [`SIGILLARIUM`](https://github.com/Verifrax/SIGILLARIUM) — seal/archive reference surface
 * [`apply`](https://github.com/Verifrax/apply) — intake surface
+* [`VERIFRAX-WWW`](https://github.com/Verifrax/VERIFRAX-WWW) — public commercial root surface
+* [`VERIFRAX-API`](https://github.com/Verifrax/VERIFRAX-API) — execution host implementation surface
+* [`VERIFRAX-STATUS`](https://github.com/Verifrax/VERIFRAX-STATUS) — status host implementation surface
+* [`VERIFRAX-SURFACE`](https://github.com/Verifrax/VERIFRAX-SURFACE) — shared public-surface form system
+* [`MAILSIEVE`](https://github.com/Verifrax/MAILSIEVE) — operational tooling surface
+* primitive repositories — irreversible protocol primitives
+* [`verifrax-marketplace-smoke`](https://github.com/Verifrax/verifrax-marketplace-smoke) — marketplace smoke validation surface
 
 This repository governs the organization perimeter around those repositories.
 It does not replace any of them.
+It must not leave live repositories outside explicit governed or non-governed manifests.
 
 ## Authority boundary
 
