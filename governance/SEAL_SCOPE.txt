@@ -1,11 +1,11 @@
-STATUS: AUTHORITY REGISTERED / SEAL NOT REGISTERED
+STATUS: VERIFIED EXECUTION BOUNDARY REGISTERED / FINAL SEAL STATE WITHHELD
 
 SEAL_SCOPE_RULES:
-- Artifact-0005 is the first public canonical authority-governed seal boundary.
+- Artifact-0005 is the first public canonical authority-governed execution boundary recorded in current truth.
 - Governance authority is externally bound through AUCTORISEAL plus this governed repo set.
 - Governed repository membership is defined by GOVERNED_REPOS.txt.
 - Governed membership is not the same as sealed execution inclusion.
-- No repository may be described as sealed before artifact-0005 is fully registered.
+- No repository may be described as sealed before an explicit final seal-state line is added by the evidence-root current-truth surfaces.
 
 CURRENT_AUTHORITY_ID: AUTHORITY-0001-VERIFRAX
 CURRENT_AUTHORITY_DIGEST: 91e02d4e6bb73aa8f434b8baa072bac15ae31447d9e06a526ecb0e2a42315808
@@ -26,7 +26,10 @@ CURRENT_SCOPE:
 - Verifrax/VERIFRAX-verify
 
 ARTIFACT_0005_SCOPE:
-- UNREGISTERED
+- VERIFIED
+- REGISTERED
+- NOT FINAL SEAL STATE
 
 RULE:
-- Replace UNREGISTERED only when artifact-0005 authority object, execution receipt, and re-verification boundary are all recorded.
+- Keep this file aligned to the evidence-root current-truth surfaces.
+- Do not describe artifact-0005 as sealed here unless the evidence-root surfaces add an explicit final seal-state line.

@@ -1,4 +1,4 @@
-name: Determinism Check
+name: Index Integrity
 
 on:
   pull_request:
