@@ -123,7 +123,6 @@ The main system split is:
 * [`VERIFRAX-API`](https://github.com/Verifrax/VERIFRAX-API) — execution host implementation surface
 * [`VERIFRAX-STATUS`](https://github.com/Verifrax/VERIFRAX-STATUS) — status host implementation surface
 * [`VERIFRAX-SURFACE`](https://github.com/Verifrax/VERIFRAX-SURFACE) — shared public-surface form system
-* [`MAILSIEVE`](https://github.com/Verifrax/MAILSIEVE) — operational tooling surface
 * primitive repositories — irreversible protocol primitives
 * [`verifrax-marketplace-smoke`](https://github.com/Verifrax/verifrax-marketplace-smoke) — marketplace smoke validation surface
 
@@ -291,13 +290,12 @@ Where the operating policy requires the `midiakiasat` to `verifrax-systems` revi
 
 ## CI and governance expectations
 
-A governance repository should expose mechanical discipline, not ceremonial language.
+Any CI posture described in this README must be real.
 
-Expected governance-facing checks include:
+This repository should enforce real checks for:
 
-* identity checks for governance files
-* determinism checks where governance artifacts must remain reproducible
-* repository-perimeter consistency checks
+* `Identity` — governance-file identity and repository-perimeter consistency
+* `Determinism Check` — reproducibility where governance artifacts must remain reproducible
 * governed/non-governed manifest consistency checks
 * authority-linkage consistency checks
 * README truth checks where applicable
