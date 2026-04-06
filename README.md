@@ -1,5 +1,14 @@
 # Verifrax .github
 
+## Canonical public route
+
+1. `proof.verifrax.net` — publish proof
+2. `verify.verifrax.net` — verify published proof
+3. `apply.verifrax.net` — accept structured intake
+
+Intake follows proof and verification.
+
+
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
 ![Role](https://img.shields.io/badge/role-organization%20governance-111111)
 ![Surface](https://img.shields.io/badge/surface-github%20org%20control-1f6feb)
