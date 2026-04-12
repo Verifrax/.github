@@ -59,6 +59,33 @@ Read hosts and repositories by owned role, not by naming similarity.
 
 If a repository or host starts sounding like authority, execution, proof publication, verification, archive, docs, and intake at the same time, the boundary is already broken.
 
+## Boundary
+
+This repository owns the Verifrax public organization profile surface.
+
+It defines public perimeter reading order, top-level organization presentation, and repository-routing context for public readers.
+
+It is not constitutional law.
+It is not canonical world-state.
+It is not reconciliation.
+It is not sovereign cognition.
+It is not authority issuance.
+It is not execution.
+It is not verification.
+It is not proof publication.
+It is not intake.
+
+## Not this
+
+This repository is not the constitutional source of truth.
+This repository is not canonical world-state.
+This repository is not reconciliation machinery.
+This repository is not sovereign cognition.
+This repository is not authority issuance.
+This repository is not execution.
+This repository is not verification.
+This repository is not proof publication.
+This repository is not intake.
 
 ## Public npm package order
 
