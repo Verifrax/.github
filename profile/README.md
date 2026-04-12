@@ -61,7 +61,17 @@ If a repository or host starts sounding like authority, execution, proof publica
 
 ## Public package registry
 
-```text
-Current public package registry:
-- verifier
-```
+- @verifrax/validexor
+- @verifrax/originseal
+- @verifrax/limenward
+- @verifrax/kairoclasp
+- @verifrax/irrevocull
+- @verifrax/guillotine
+- @verifrax/attestorium
+- @verifrax/archicustos
+- @verifrax/cicullis
+- @verifrax/verifrax-spec
+- @verifrax/verifrax-profiles
+- @verifrax/auctoriseal
+- @verifrax/corpiform
+
