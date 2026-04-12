@@ -75,3 +75,25 @@ If a repository or host starts sounding like authority, execution, proof publica
 - @verifrax/auctoriseal
 - @verifrax/corpiform
 
+## Public npm package order
+
+The public package surface is read in this exact stack order:
+
+1. [`@verifrax/verifrax`](https://github.com/orgs/Verifrax/packages/npm/package/verifrax) — normative protocol surface
+2. [`@verifrax/verifrax-verify`](https://github.com/orgs/Verifrax/packages/npm/package/verifrax-verify) — public verifier surface
+3. [`@verifrax/verifrax-spec`](https://github.com/orgs/Verifrax/packages/npm/package/verifrax-spec) — formal specification surface
+4. [`@verifrax/verifrax-profiles`](https://github.com/orgs/Verifrax/packages/npm/package/verifrax-profiles) — deterministic profile surface
+5. [`@verifrax/auctoriseal`](https://github.com/orgs/Verifrax/packages/npm/package/auctoriseal) — authority issuance
+6. [`@verifrax/corpiform`](https://github.com/orgs/Verifrax/packages/npm/package/corpiform) — governed execution
+7. [`@verifrax/cicullis`](https://github.com/orgs/Verifrax/packages/npm/package/cicullis) — enforcement boundary
+8. [`@verifrax/sigillarium`](https://github.com/orgs/Verifrax/packages/npm/package/sigillarium) — seal/archive reference
+9. [`@verifrax/archicustos`](https://github.com/orgs/Verifrax/packages/npm/package/archicustos) — custody-preservation primitive
+10. [`@verifrax/attestorium`](https://github.com/orgs/Verifrax/packages/npm/package/attestorium) — attestation primitive
+11. [`@verifrax/guillotine`](https://github.com/orgs/Verifrax/packages/npm/package/guillotine) — terminal cutoff primitive
+12. [`@verifrax/irrevocull`](https://github.com/orgs/Verifrax/packages/npm/package/irrevocull) — irreversible judgment primitive
+13. [`@verifrax/kairoclasp`](https://github.com/orgs/Verifrax/packages/npm/package/kairoclasp) — temporal boundary primitive
+14. [`@verifrax/limenward`](https://github.com/orgs/Verifrax/packages/npm/package/limenward) — threshold / boundary primitive
+15. [`@verifrax/originseal`](https://github.com/orgs/Verifrax/packages/npm/package/originseal) — origin / provenance primitive
+16. [`@verifrax/validexor`](https://github.com/orgs/Verifrax/packages/npm/package/validexor) — verification primitive
+
+This is the public package order. Repository topology, host topology, and package topology are not interchangeable surfaces.
