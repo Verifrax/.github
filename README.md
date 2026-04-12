@@ -113,7 +113,7 @@ It must not:
 * claim to publish proof material as the proof surface
 * claim to archive seal history as the archive surface
 * claim to be the primary artifact registry
-* contain placeholder quickstarts
+* contain fake quickstarts
 * contain fake install flows
 * contain generic template prose that outruns live system truth
 
@@ -121,6 +121,34 @@ Governance is not protocol authorship.
 Governance is not execution.
 Governance is not verification.
 Governance is not proof publication.
+
+## Boundary
+
+This repository owns GitHub organization-governance and repository-perimeter control only.
+
+It defines the GitHub-level governance root, governed-repository registry surfaces, organization policy surfaces, and cross-repository coordination rules.
+
+It does not define constitutional law.
+It does not hold canonical world-state.
+It does not perform reconciliation.
+It does not perform sovereign cognition.
+It does not issue authority-of-record.
+It does not execute.
+It does not verify.
+It does not publish proof as proof authority.
+It does not operate intake.
+
+## Not this
+
+This repository is not the constitutional source of truth.
+This repository is not canonical world-state.
+This repository is not reconciliation machinery.
+This repository is not sovereign cognition.
+This repository is not authority issuance.
+This repository is not execution.
+This repository is not verification.
+This repository is not proof publication.
+This repository is not intake.
 
 ## Why this repository exists
 
@@ -415,7 +443,7 @@ A contribution here is wrong if it:
 * makes `.github` sound like the authority issuer
 * makes `.github` sound like the execution runtime
 * makes `.github` sound like the proof or verifier surface
-* introduces placeholder quickstarts
+* introduces fake quickstarts
 * introduces fake host claims
 * weakens the authority-direction wording
 * drops artifact-0005 perimeter alignment from the organization view
