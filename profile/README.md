@@ -14,22 +14,19 @@ VERIFRAX is a governed repository and host perimeter that separates authority is
 * `docs.verifrax.net` — explanatory documentation surface
 * `apply.verifrax.net` — intake surface
 
-## Stack order
+## Live sovereign topology
 
-1. `.github` — organization governance root and repository-perimeter control surface
-2. `AUCTORISEAL` — authority issuance and public authority reference
-3. `CORPIFORM` — governed execution and receipt emission
-4. `VERIFRAX` — normative protocol authoring, evidence-root registration, and verification boundary
-5. `VERIFRAX-SPEC` — derived specification publication
-6. `VERIFRAX-PROFILES` — deterministic profile constraints
-7. `VERIFRAX-SAMPLES` — sample and reproducibility surface
-8. `VERIFRAX-verify` — public verification UI
-9. `VERIFRAX-DOCS` — explanatory documentation surface
-10. `cicullis` — enforcement boundary
-11. `proof` — proof publication surface
-12. `SIGILLARIUM` — seal/archive reference surface
-13. `apply` — intake surface
-
+```text
+SYNTAGMARIUM = law
+ORBISTIUM    = state
+CONSONORIUM  = reconciliation
+TACHYRIUM    = cognition
+AUCTORISEAL  = authority
+CORPIFORM    = execution
+VERIFRAX     = verification
+ANAGNORIUM   = terminal recognition
+REGRESSORIUM = terminal recourse
+```
 ## Authority direction
 
 * `VERIFRAX` authors normative source material.
@@ -61,3 +58,10 @@ VERIFRAX is a governed repository and host perimeter that separates authority is
 Read hosts and repositories by owned role, not by naming similarity.
 
 If a repository or host starts sounding like authority, execution, proof publication, verification, archive, docs, and intake at the same time, the boundary is already broken.
+
+## Public package registry
+
+```text
+Current public package registry:
+- verifier
+```
