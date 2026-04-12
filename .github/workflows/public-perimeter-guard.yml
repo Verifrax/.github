@@ -1,0 +1,30 @@
+name: Public Perimeter Guard
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Guard org profile README package-order surface
+        run: |
+          set -euo pipefail
+          test "$(grep -c "^## Public npm package order$" profile/README.md)" -eq 1
+          ! grep -q "^## Public package registry$" profile/README.md
+
+      - name: Guard TACHYRIUM against private-bootstrap regression
+        run: |
+          set -euo pipefail
+          curl -fsSL https://raw.githubusercontent.com/Verifrax/TACHYRIUM/main/README.md > /tmp/tachyrium.README.md
+          ! grep -q "Private bootstrap repository" /tmp/tachyrium.README.md
+
+      - name: Guard verifier against stray backreference render
+        run: |
+          set -euo pipefail
+          curl -fsSL https://verify.verifrax.net/ > /tmp/verify.html
+          ! grep -q "\\\\1" /tmp/verify.html

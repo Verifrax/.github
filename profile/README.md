@@ -59,25 +59,10 @@ Read hosts and repositories by owned role, not by naming similarity.
 
 If a repository or host starts sounding like authority, execution, proof publication, verification, archive, docs, and intake at the same time, the boundary is already broken.
 
-## Public package registry
-
-- @verifrax/validexor
-- @verifrax/originseal
-- @verifrax/limenward
-- @verifrax/kairoclasp
-- @verifrax/irrevocull
-- @verifrax/guillotine
-- @verifrax/attestorium
-- @verifrax/archicustos
-- @verifrax/cicullis
-- @verifrax/verifrax-spec
-- @verifrax/verifrax-profiles
-- @verifrax/auctoriseal
-- @verifrax/corpiform
 
 ## Public npm package order
 
-The public package surface is read in this exact stack order:
+The canonical public package surface is read in this exact stack order. GitHub Packages is a distribution index, not the constitutional stack-order surface:
 
 1. [`@verifrax/verifrax`](https://github.com/orgs/Verifrax/packages/npm/package/verifrax) — normative protocol surface
 2. [`@verifrax/verifrax-verify`](https://github.com/orgs/Verifrax/packages/npm/package/verifrax-verify) — public verifier surface
