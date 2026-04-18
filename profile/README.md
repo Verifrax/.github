@@ -2,7 +2,7 @@
 
 Deterministic verification, governed execution, explicit authority, and irreversible evidence finality.
 
-VERIFRAX is a governed repository and host perimeter that separates authority issuance, governed execution, proof publication, public verification, documentation, archive/reference surfaces, and intake so each public surface can stay inspectable without collapsing role boundaries.
+This organization profile routes readers across the governed VERIFRAX repository and host perimeter while preserving role separation between chambers, hosts, publication surfaces, documentation surfaces, archive/reference surfaces, and intake.
 
 ## Public hosts
 
@@ -14,7 +14,7 @@ VERIFRAX is a governed repository and host perimeter that separates authority is
 * `docs.verifrax.net` — explanatory documentation surface
 * `apply.verifrax.net` — intake surface
 
-## Live sovereign topology
+## Live chamber topology
 
 ```text
 SYNTAGMARIUM = law
@@ -27,6 +27,39 @@ VERIFRAX     = verification
 ANAGNORIUM   = terminal recognition
 REGRESSORIUM = terminal recourse
 ```
+## Chamber stack vs implementation strata
+
+Read these as two different public classes:
+
+### Chambers
+
+- `SYNTAGMARIUM` — law
+- `ORBISTIUM` — state
+- `CONSONORIUM` — reconciliation
+- `TACHYRIUM` — cognition
+- `AUCTORISEAL` — authority
+- `CORPIFORM` — execution
+- `VERIFRAX` — verification
+- `ANAGNORIUM` — terminal recognition
+- `REGRESSORIUM` — terminal recourse
+
+### Implementation, host, and support strata
+
+- `VERIFRAX-WWW` — public root host
+- `VERIFRAX-API` — API host implementation surface
+- `VERIFRAX-STATUS` — status host implementation surface
+- `VERIFRAX-SURFACE` — shared public-surface system
+- `VERIFRAX-SPEC` — derived specification publication
+- `VERIFRAX-DOCS` — explanatory docs
+- `VERIFRAX-PROFILES` — deterministic profile constraints
+- `VERIFRAX-verify` — public verification repository and UI boundary
+- `proof` — proof publication
+- `SIGILLARIUM` — archive/reference
+- `apply` — intake
+
+These implementation, host, and support repositories are not parallel sovereignty.
+They must not be read as law, state, reconciliation, cognition, authority, execution, verification, terminal recognition, or terminal recourse merely because they are public-facing.
+
 ## Authority direction
 
 * `VERIFRAX` authors normative source material.
