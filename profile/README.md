@@ -69,6 +69,9 @@ Read these as two different public classes.
 * `proof` — proof publication
 * `SIGILLARIUM` — archive/reference and certification boundary
 * `apply` — intake
+* `ADMISSORIUM` — admissibility enforcement implementation
+
+`ADMISSORIUM` is listed here only as admissibility enforcement implementation. It is not a tenth sovereign chamber, not law, not accepted state, not authority, not execution, not verification, not recognition, and not recourse.
 
 These implementation, host, support, and package surfaces are not parallel sovereignty.
 
@@ -90,6 +93,7 @@ They must not be read as law, state, reconciliation, cognition, authority, execu
 * Public verification occurs in `VERIFRAX-verify`, not in `proof`.
 * Seal/archive reference lives in `SIGILLARIUM`, not in the evidence root of record.
 * Intake starts at `apply`, not at `proof`, `verify`, `docs`, or execution surfaces.
+* Admissibility enforcement is operated through `ADMISSORIUM`; it does not decide truth and must not rewrite current truth objects.
 
 ## Start here
 
