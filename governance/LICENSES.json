@@ -1,0 +1,251 @@
+{
+  "schema": "verifrax.licenses.v1",
+  "count": 35,
+  "entries": [
+    {
+      "repo": "Verifrax/.github",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/ADMISSORIUM",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/ANAGNORIUM",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/ARCHITECTURE",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/AUCTORISEAL",
+      "license": "AGPL-3.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/CONSONORIUM",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/CORPIFORM",
+      "license": "AGPL-3.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/ORBISTIUM",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/REGRESSORIUM",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/SIGILLARIUM",
+      "license": "MPL-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/SPEEDKIT",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/SYNTAGMARIUM",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/TACHYRIUM",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/VERIFRAX",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/VERIFRAX-API",
+      "license": "AGPL-3.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/VERIFRAX-DOCS",
+      "license": "MPL-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/VERIFRAX-PROFILES",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/VERIFRAX-SAMPLES",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/VERIFRAX-SPEC",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/VERIFRAX-STATUS",
+      "license": "MPL-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/VERIFRAX-SURFACE",
+      "license": "MPL-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/VERIFRAX-WWW",
+      "license": "MPL-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/VERIFRAX-verify",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/apply",
+      "license": "AGPL-3.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/archicustos",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/attestorium",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/cicullis",
+      "license": "AGPL-3.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/guillotine",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/irrevocull",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/kairoclasp",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/limenward",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/originseal",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/proof",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/validexor",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    },
+    {
+      "repo": "Verifrax/verifrax-marketplace-smoke",
+      "license": "Apache-2.0",
+      "license_file_required": true,
+      "readme_license_required": true,
+      "package_json_license_required_if_present": true
+    }
+  ]
+}
