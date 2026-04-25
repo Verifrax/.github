@@ -142,3 +142,11 @@ The canonical public package surface is read in this exact stack order. GitHub P
 16. [`@verifrax/validexor`](https://github.com/orgs/Verifrax/packages/npm/package/validexor) — verification primitive
 
 This is the public package order. Repository topology, host topology, and package topology are not interchangeable surfaces.
+
+## Package surface classification
+
+The live package surface is classified by installable boundary, not by naming prestige or sovereignty.
+
+- `@verifrax/verifrax-api` is a machine-interface / implementation package. It is not a protocol-sovereign package and does not outrank repository truth, host truth, law, or accepted-epoch truth.
+- `@verifrax/root` is an implementation package only if retained as a real installable boundary. It is not topology law, not public-root authority, and not a sovereign chamber.
+- Sovereign chambers do not become packages merely because they are public and important.
