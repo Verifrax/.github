@@ -60,6 +60,7 @@ Read these as two different public classes.
 
 * `VERIFRAX-WWW` — public root host implementation
 * `VERIFRAX-API` — API host and machine-interface implementation
+* `VERIFRAX-PY` — Python SDK and CLI implementation boundary
 * `VERIFRAX-STATUS` — status host implementation
 * `VERIFRAX-SURFACE` — shared public-surface system
 * `VERIFRAX-SPEC` — derived specification publication
@@ -162,7 +163,15 @@ Package classification rule:
 * `@verifrax/root` is an implementation package only if retained as a real installable boundary.
 * Sovereign chambers do not become packages merely because they are public and important.
 
-The canonical public package surface is read in this exact stack order.
+Live package-surface reading:
+
+* Live GitHub Packages surface currently contains 18 package entries.
+* Canonical protocol/substrate/archive core order below contains 16 entries.
+* `@verifrax/verifrax-api` is an implementation / machine-interface package outside the core protocol order.
+* `@verifrax/root` is an implementation package only if retained as a real installable boundary.
+* Package topology remains subordinate to repo truth, host truth, and accepted epoch truth.
+
+The canonical public core package surface is read in this exact stack order.
 
 GitHub Packages is a distribution index, not the constitutional stack-order surface.
 
