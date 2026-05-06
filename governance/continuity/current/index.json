@@ -1,0 +1,7 @@
+{
+  "object_type": "ContinuityTransferIndex",
+  "status": "ACTIVE_INDEX",
+  "current_continuity_transfer_id": "continuity-transfer-0001",
+  "current_continuity_transfer_ref": "governance/continuity/current/continuity-transfer-0001.json",
+  "truth_warning": "INDEX_POINTER_NOT_AUTHORITY_TRANSFER"
+}
