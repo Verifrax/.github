@@ -4,6 +4,19 @@ Deterministic verification, governed execution, explicit authority, and irrevers
 
 This organization profile routes readers across the governed VERIFRAX repository and host perimeter while preserving role separation between chambers, hosts, publication surfaces, documentation surfaces, archive/reference surfaces, package surfaces, and intake.
 
+## Current count ontology
+
+- Governed repository perimeter: 35
+- Public repository surface: 36
+- Sovereign chambers: 9
+- Public host boundaries: 12
+- Live GitHub Packages entries: 18
+- Canonical core package order entries: 16
+- PyPI SDK package boundary: 1
+- Private internal package boundary: 1
+
+Counts are typed. Public repository existence is not governed admission. Package existence is not sovereignty. Root observatory projection is not accepted state.
+
 ## Immediate reading rules
 
 - Repository topology, host topology, and package topology are not interchangeable surfaces.
@@ -104,6 +117,10 @@ They must not be read as law, state, reconciliation, cognition, authority, execu
 * [`VERIFRAX-verify`](https://github.com/Verifrax/VERIFRAX-verify) — public verification
 * [`proof`](https://github.com/Verifrax/proof) — proof publication
 * [`VERIFRAX-DOCS`](https://github.com/Verifrax/VERIFRAX-DOCS) — explanatory docs
+
+## Current object-chain reading
+
+VERIFRAX has published a first active bounded constitutional object chain for artifact-0005. Public deference is limited to that admitted chain and its replay bundle. Public hosts, READMEs, packages, SDKs, and observatory projections are subordinate surfaces and may not expand the chain by implication.
 
 ## Current reading rule
 
