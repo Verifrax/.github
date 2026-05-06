@@ -1,0 +1,68 @@
+{
+  "schema": "verifrax.admissions.v1",
+  "status": "ACTIVE_TRUTH",
+  "governing_boundary": ".github",
+  "purpose": "Separate governed repository count, public repository count, package-boundary count, chamber count, host count, and admission status so projections cannot collapse existence into governance.",
+  "count_policy": {
+    "governed_repository_count": 35,
+    "public_repository_count": 36,
+    "sovereign_chamber_count": 9,
+    "host_count": 12,
+    "npm_package_count": 18,
+    "core_package_order_count": 16,
+    "pypi_package_boundary_count": 1,
+    "private_internal_package_count": 1
+  },
+  "entries": [
+    {
+      "repo": "Verifrax/VERIFRAX-PY",
+      "admission_status": "PUBLIC_IMPLEMENTATION_PACKAGE_BOUNDARY",
+      "governed_repository": false,
+      "public_repository": true,
+      "truth_owner": false,
+      "projection_owner": false,
+      "sovereign_chamber": false,
+      "package_ecosystem": "pypi",
+      "package_name": "verifrax",
+      "import_name": "verifrax",
+      "cli": "verifrax",
+      "may_infer_missing_truth": false,
+      "must_refuse_when_required_objects_absent": true,
+      "projection_rule": "May be counted as a public repository and PyPI implementation/package boundary, not as a governed repository or sovereign chamber unless separately admitted."
+    },
+    {
+      "repo": "Verifrax/ADMISSORIUM",
+      "admission_status": "GOVERNED_IMPLEMENTATION_ENFORCEMENT_BOUNDARY",
+      "governed_repository": true,
+      "public_repository": true,
+      "truth_owner": false,
+      "projection_owner": false,
+      "sovereign_chamber": false,
+      "package_ecosystem": "npm-private",
+      "package_name": "@verifrax/admissorium",
+      "package_public": false,
+      "may_block_merge": true,
+      "may_quarantine": true,
+      "may_open_projection_repair_prs": true,
+      "may_rewrite_current_truth_objects": false
+    }
+  ],
+  "forbidden_projection": [
+    "Do not count public repositories as governed repositories unless admitted.",
+    "Do not count private packages as public packages.",
+    "Do not count PyPI package boundaries as npm packages.",
+    "Do not let root host count override this admission object.",
+    "Do not let repository existence imply sovereign participation.",
+    "Do not let SDK package existence imply truth ownership."
+  ],
+  "projection_labels": {
+    "governed_repository_count": "governed repositories",
+    "public_repository_count": "public repositories",
+    "sovereign_chamber_count": "sovereign chambers",
+    "host_count": "public host boundaries",
+    "npm_package_count": "GitHub/npm package entries",
+    "core_package_order_count": "canonical core package order entries",
+    "pypi_package_boundary_count": "PyPI SDK package boundaries",
+    "private_internal_package_count": "private internal package boundaries"
+  }
+}
