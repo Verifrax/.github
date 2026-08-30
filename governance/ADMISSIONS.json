@@ -5,7 +5,7 @@
   "purpose": "Separate governed repository count, public repository count, package-boundary count, chamber count, host count, and admission status so projections cannot collapse existence into governance.",
   "count_policy": {
     "governed_repository_count": 35,
-    "public_repository_count": 36,
+    "public_repository_count": 37,
     "sovereign_chamber_count": 9,
     "host_count": 12,
     "npm_package_count": 18,
