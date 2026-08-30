@@ -1,2 +1,3 @@
 # NON_GOVERNED repos (explicit):
-# none currently
+Verifrax/VERIFRAX-CONTROL-VERIFY
+Verifrax/VERIFRAX-PY
